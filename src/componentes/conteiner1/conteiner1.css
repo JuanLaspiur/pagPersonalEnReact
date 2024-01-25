@@ -1,0 +1,35 @@
+
+.container1{
+    height: 80vh;
+    background-color: rgba(0, 238, 63, 0.146);
+    background-image: url('../img/sobremi.webp'); /* Reemplaza con tu imagen de fondo */
+    background-position: 85%;
+    background-repeat: no-repeat;
+
+  }
+
+@media (max-width:990px){
+    .container1{
+        height: 60vh;
+        background-size: 39%;
+        background-position: right;
+    }
+}
+.subrayado-border {
+    animation: subraya 3s normal forwards;
+    padding-right: 25px;
+    border-bottom: none; /* Puedes ajustar el color y el grosor del subrayado */
+    padding-bottom: 3px; /* Ajusta el espacio entre el texto y el subrayado según sea necesario */
+    display: inline; /* Hace que el subrayado afecte solo al contenido del elemento, no al contenedor completo */
+  
+}
+@keyframes subraya{
+   0%{
+     border-bottom: none;
+   }
+   100%{
+  
+    border-bottom: 2px solid #34db74;
+   }
+}
+

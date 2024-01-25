@@ -1,0 +1,32 @@
+.container3{
+    height: max-content;
+}
+
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.297);
+
+}
+
+.card p{
+    color: gray;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+background-color: black;
+color: white;
+transition: 0.7s;
+}
